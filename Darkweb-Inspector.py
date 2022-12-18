@@ -13,7 +13,7 @@ keywords = ['keyword1', 'keyword2', 'keyword3']
 
 # Create the main window
 window = tk.Tk()
-window.title('Keyword Search')
+window.title('DarkWeb-Inspector, Created by @CyberSec_Sai, BETA')
 # window.attributes('-fullscreen', True) # For Full screen
 window.geometry('1920x1080')  # Fit the window to the size of the screen
 
@@ -37,6 +37,10 @@ Result_label.grid(row=1, column=0)
 # Create a text widget to display the results
 results_text = tk.Text(width=175, height= 40)
 results_text.grid(row=3, column=1, columnspan=2)
+
+# Creator
+creator_label = tk.Label(text='Created by CyberSec_Sai:\nWebsite: https://praveenjalasutram.wixsite.com/praveenjalasutram\nLinkedIn: https://www.linkedin.com/in/praveenjalasutram/\nTwitter: https://twitter.com/cybersec_sai\nGitHub: https://github.com/praveenjalasutram')
+creator_label.grid(row=4, column=1)
 
 # Define a function to start the search
 def start_search():
