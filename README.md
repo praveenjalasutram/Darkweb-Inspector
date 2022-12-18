@@ -1,7 +1,10 @@
 # Darkweb Inspector
 
 ## How to Use the Darkweb Inspector
-The Darkweb Inspector is a Python program that allows you to search for specific keywords on a list of URLs and display the results. It includes a graphical user interface (GUI) using the Tkinter library, which allows you to enter the list of URLs and keywords, start the search, and view the results.
+The Darkweb Inspector is a Python program that allows you to search for specific keywords on a list of URLs () and display the results. It includes a graphical user interface (GUI) using the Tkinter library, which allows you to enter the list of URLs and keywords, start the search, and view the results.
+
+## IMPORTANT
+Fore Darkweb-Inspector.py script, the list of URLs to search is obtained from a specified page (https://raw.githubusercontent.com/praveenjalasutram/Darkweb-Inspector/main/Darkweb%20URL%20List in this case). The script extracts the list of URLs from the page and searches them for the specified keywords. But for the Surfaceweb-Inspector.py script, you have to enter the desired URLs manually.
 
 ## Prerequisites
 Before you can use the keyword search script, you need to have the following installed on your computer:
