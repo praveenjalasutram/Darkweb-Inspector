@@ -4,6 +4,12 @@
 The Darkweb Inspector and SurfaceWeb Inspectors are Python programs that allows you to search for specific keywords on a list of URLs and display and save the results. It includes a graphical user interface (GUI) using the Tkinter library, which allows you to enter the list of URLs and keywords, start the search, and view the results.
 
 ## Difference between Surfaceweb-Inspector and Darkweb-Inspector scripts
+### Surfaceweb-Inspector
+![image](https://user-images.githubusercontent.com/17245435/208282613-d98d1173-bd58-4d88-88bf-e8c90782a285.png)
+
+### Darkweb-Inspector
+![image](https://user-images.githubusercontent.com/17245435/208282641-f515b3e9-c227-4d91-b7ed-8eacbf072bfc.png)
+
 Both are almost similar in functionality with minor difference being the DarkWeb Inspector tool uses defined Darkweb Onion links whereas SurfaceWeb-Inspector expect user to provide the URLs manually through GUI to perform the search. For Darkweb-Inspector.py script, the list of URLs to search is obtained from a specified page (https://raw.githubusercontent.com/praveenjalasutram/Darkweb-Inspector/main/Darkweb%20URL%20List in this case). The script extracts the list of URLs from the page and searches them for the specified keywords. But for the Surfaceweb-Inspector.py script, you have to enter the desired URLs manually through GUI.
 
 ## Prerequisites
