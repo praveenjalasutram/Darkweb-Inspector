@@ -11,7 +11,8 @@ keywords = ['keyword1', 'keyword2', 'keyword3']
 # Create the main window
 window = tk.Tk()
 window.title('Keyword Search')
-window.attributes('-fullscreen', True)
+# window.attributes('-fullscreen', True) # For Full screen
+window.geometry('1920x1080')  # Fit the window to the size of the screen
 
 # Create a label for the URL list
 url_label = tk.Label(text='URLs:')
