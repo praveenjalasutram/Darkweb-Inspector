@@ -1,10 +1,10 @@
-# Darkweb Inspector
+# Darkweb Inspector & Surfaceweb Inspector Tools
 
-## How to Use the Darkweb Inspector
-The Darkweb Inspector is a Python program that allows you to search for specific keywords on a list of URLs () and display the results. It includes a graphical user interface (GUI) using the Tkinter library, which allows you to enter the list of URLs and keywords, start the search, and view the results.
+## How to Use the Darkweb Inspector & SurfaceWeb Inspector tools
+The Darkweb Inspector and SurfaceWeb Inspectors are Python programs that allows you to search for specific keywords on a list of URLs and display and save the results. It includes a graphical user interface (GUI) using the Tkinter library, which allows you to enter the list of URLs and keywords, start the search, and view the results.
 
-## IMPORTANT
-Fore Darkweb-Inspector.py script, the list of URLs to search is obtained from a specified page (https://raw.githubusercontent.com/praveenjalasutram/Darkweb-Inspector/main/Darkweb%20URL%20List in this case). The script extracts the list of URLs from the page and searches them for the specified keywords. But for the Surfaceweb-Inspector.py script, you have to enter the desired URLs manually.
+## Difference between Surfaceweb-Inspector and Darkweb-Inspector scripts
+Both are almost similar in functionality with minor difference being the DarkWeb Inspector tool uses defined Darkweb Onion links whereas SurfaceWeb-Inspector expect user to provide the URLs manually through GUI to perform the search. For Darkweb-Inspector.py script, the list of URLs to search is obtained from a specified page (https://raw.githubusercontent.com/praveenjalasutram/Darkweb-Inspector/main/Darkweb%20URL%20List in this case). The script extracts the list of URLs from the page and searches them for the specified keywords. But for the Surfaceweb-Inspector.py script, you have to enter the desired URLs manually through GUI.
 
 ## Prerequisites
 Before you can use the keyword search script, you need to have the following installed on your computer:
@@ -37,7 +37,7 @@ To save the results of the search to a file, you can use the save as option in t
 ## Example Usage
 Here is an example of how to use the keyword search script:
 
-1. Enter the following list of URLs in the first entry field: http://www.example.com,http://www.example.net
+1. Enter the following list of URLs in the first entry field: http://www.example.com,http://www.example.net (This step is only for Surfaceweb-Inspector.py, for Darkweb-Inspector.py, it will be automatically fetched from predefined onion links)
 2. Enter the following list of keywords in the second entry field: keyword1,keyword2,keyword3
 3. Click the "Search" button.
 4. The results of the search will be displayed in the text widget. If any of the keywords are found on the URLs, the URL and location where they were found will be displayed. If no keywords are found, a message indicating that no keywords were found will be displayed.
