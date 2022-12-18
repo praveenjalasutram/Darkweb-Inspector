@@ -16,7 +16,7 @@ Before you can use the keyword search script, you need to have the following ins
 ## Running the Script
 To run the keyword search script, open a terminal or command prompt and navigate to the directory where the script is located. Then enter the following command:
 
-`python Darkweb-Inspector.py` or `python Surfaceweb-Inspector.py` (based on the selected script)
+`python3 Darkweb-Inspector.py` or `python3 Surfaceweb-Inspector.py` (based on the selected script)
  
 This will launch the GUI of the keyword search script.
 
