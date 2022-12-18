@@ -11,13 +11,14 @@ keywords = ['keyword1', 'keyword2', 'keyword3']
 # Create the main window
 window = tk.Tk()
 window.title('Keyword Search')
+window.attributes('-fullscreen', True)
 
 # Create a label for the URL list
 url_label = tk.Label(text='URLs:')
 url_label.grid(row=0, column=0)
 
 # Create an entry field for the URL list
-url_entry = tk.Entry()
+url_entry = tk.Entry(width=50, height=5)
 url_entry.insert(0, 'http://www.example.com,http://www.example.net')
 url_entry.grid(row=0, column=1)
 
@@ -26,7 +27,7 @@ keyword_label = tk.Label(text='Keywords:')
 keyword_label.grid(row=1, column=0)
 
 # Create an entry field for the keyword list
-keyword_entry = tk.Entry()
+keyword_entry = tk.Entry(width=50, height=5)
 keyword_entry.insert(0, 'keyword1,keyword2,keyword3')
 keyword_entry.grid(row=1, column=1)
 
