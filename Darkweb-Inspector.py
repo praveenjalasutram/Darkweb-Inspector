@@ -11,13 +11,15 @@ keywords = ['keyword1', 'keyword2', 'keyword3']
 # Create the main window
 window = tk.Tk()
 window.title('Keyword Search')
+# window.attributes('-fullscreen', True) # For Full screen
+window.geometry('1920x1080')  # Fit the window to the size of the screen
 
 # Create a label for the keyword list
 keyword_label = tk.Label(text='Keywords:')
 keyword_label.grid(row=0, column=0)
 
 # Create an entry field for the keyword list
-keyword_entry = tk.Entry()
+keyword_entry = tk.Entry(width=50, height=5)
 keyword_entry.insert(0, 'keyword1,keyword2,keyword3')
 keyword_entry.grid(row=0, column=1)
 
