@@ -13,6 +13,32 @@ Before you can use the keyword search script, you need to have the following ins
 - The Tkinter library (which is included with Python)
 - The requests and BeautifulSoup libraries (which can be installed using pip install requests beautifulsoup4)
 
+## How to install Prerequisites
+
+* Download Python 3 from here: https://www.python.org/download/releases/3.0/
+
+After you installed Python3, To install the required libraries in Python 3, you can use the pip package manager. Here are the steps you can follow to install the Tkinter library (which is included with Python), and the requests and BeautifulSoup libraries (which can be installed using pip):
+
+1. Open a terminal or command prompt.
+
+2. Make sure you have pip installed. You can check if pip is installed by running the following command:
+
+`pip --version`
+
+If pip is installed, you should see a message indicating the version of pip that is installed. If pip is not installed, you can install it by running the following command:
+
+`python3 -m ensurepip --upgrade`
+
+Install the requests library by running the following command:
+
+`pip install requests`
+
+Install the BeautifulSoup library by running the following command:
+
+`pip install beautifulsoup4`
+
+Once these libraries are installed, you should be able to use them in your Python scripts.
+
 ## Running the Script
 To run the keyword search script, open a terminal or command prompt and navigate to the directory where the script is located. Then enter the following command:
 
